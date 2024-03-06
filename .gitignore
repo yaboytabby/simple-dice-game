@@ -1,3 +1,10 @@
-# Ignore Replit-Specific Files 
+# Ignore all files and folders created by Replit
 .replit
-replit.nix
+.replit/            # Ignore the .replit directory
+*.r                 # Ignore all .r files
+*.exe               # Ignore executable files
+*.o                 # Ignore object files
+a.out               # Ignore the standard output file
+.ccls-cache/        # dont think this is needed to ignore but just in case.
+
+# Add more patterns to ignore as needed
